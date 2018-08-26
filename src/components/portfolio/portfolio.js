@@ -12,11 +12,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title>
-                      <img alt src="images/portfolio/coffee.jpg" />
+                      <img alt src="images/portfolio/DartBoardRed.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Coffee</h5>
-                          <p>Illustrration</p>
+                          <h5>DartBoard</h5>
+                          <p>Travel Planning</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -26,10 +26,10 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt src="images/portfolio/console.jpg" />
+                      <img alt src="http://christypresler.com/assets/images/blog/2013/11/rabbit-line.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Console</h5>
+                          <h5>Reactive Nutshell</h5>
                           <p>Web Development</p>
                         </div>
                       </div>
@@ -40,18 +40,18 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-03" title>
-                      <img alt src="images/portfolio/judah.jpg" />
+                      <img alt src="images/portfolio/origami.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Judah</h5>
-                          <p>Webdesign</p>
+                          <h5>Task Tracker</h5>
+                          <p>Web Development</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
                 </div> {/* item end */}
-                <div className="columns portfolio-item">
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-04" title>
                       <img alt src="images/portfolio/into-the-light.jpg" />
@@ -64,85 +64,29 @@ export default class Portfolio extends Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-05" title>
-                      <img alt src="images/portfolio/farmerboy.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Farmer Boy</h5>
-                          <p>Branding</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-06" title>
-                      <img alt src="images/portfolio/girl.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Girl</h5>
-                          <p>Photography</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-07" title>
-                      <img alt src="images/portfolio/origami.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Origami</h5>
-                          <p>Illustrration</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-08" title>
-                      <img alt src="images/portfolio/retrocam.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Retrocam</h5>
-                          <p>Web Development</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div>  {/* item end */}
+                </div> item end */}
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
             {/* Modal Popup
             --------------------------------------------------------------- */}
             <div id="modal-01" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-DartBoard.PNG" alt />
               <div className="description-box">
-                <h4>Coffee Cup</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+                <h4>DartBoard</h4>
+                <p>DartBoard is a travel planning app that users can utilize as a central repository for information related to their travel plans.</p>
+                <span className="categories"><i className="fa fa-tag" />React, Travel</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="https://github.com/williamkimball/dartboard" target="_blank">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}
             <div id="modal-02" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-ReactiveNutshell.PNG" alt />
               <div className="description-box">
-                <h4>Console</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                <h4>Reactive Nutshell</h4>
+                <p> Nutshell is a dashboard for people to use to organize their daily tasks, events, news article, friends, and chat messages. Built from the ground up in React.</p>
+                <span className="categories"><i className="fa fa-tag" />React, CRUD</span>
               </div>
               <div className="link-box">
                 <a href="http://www.behance.net">Details</a>
@@ -150,18 +94,18 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-02 End */}
             <div id="modal-03" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-TaskTracker.PNG" alt />
               <div className="description-box">
-                <h4>Judah</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding</span>
+                <h4>Task Tracker</h4>
+                <p>Basic task tracker application. Created using Javascript, Browserify, Grunt, and jQuery.</p>
+                <span className="categories"><i className="fa fa-tag" />Javascript</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="https://github.com/nss-day-cohort-26/task-tracker-otiose-okapis">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-03 End */}
-            <div id="modal-04" className="popup-modal mfp-hide">
+            {/* <div id="modal-04" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt />
               <div className="description-box">
                 <h4>Into the Light</h4>
@@ -172,55 +116,7 @@ export default class Portfolio extends Component {
                 <a href="http://www.behance.net">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
-            </div>{/* modal-04 End */}
-            <div id="modal-05" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt />
-              <div className="description-box">
-                <h4>Farmer Boy</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>{/* modal-05 End */}
-            <div id="modal-06" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt />
-              <div className="description-box">
-                <h4>Girl</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Photography</span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>{/* modal-06 End */}
-            <div id="modal-07" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt />
-              <div className="description-box">
-                <h4>Origami</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>{/* modal-07 End */}
-            <div id="modal-08" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt />
-              <div className="description-box">
-                <h4>Retrocam</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-              </div>
-              <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>{/* modal-01 End */}
+            </div>modal-04 End */}
           </div> {/* row End */}
         </section>); {/* Portfolio Section End*/}
     }
