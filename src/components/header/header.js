@@ -32,14 +32,14 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#portfolio">
-                  Works
+                  Projects
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="smoothscroll" href="#contact">
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>{" "}
             {/* end #nav */}
           </nav>{" "}

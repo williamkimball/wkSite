@@ -14,37 +14,58 @@ export default class Portfolio extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
+                <h3>Nashville Software School</h3>
                 <p className="info">
-                  Master in Graphic Design <span>•</span>{" "}
-                  <em className="date">April 2007</em>
+                  Full Stack Web Development Bootcamp <span>•</span>{" "}
+                  <em className="date">November 2018</em>
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                  Nullam dictum felis eu pede mollis pretium.
+                  Intensive full-time software development bootcamp focusing on
+                  full stack development fundamentals and problem solving.{" "}
+                  <br />
+                  <br />
+                  Strong focus on C# .NET, Javascript, and React. <br />• Hands
+                  on application of OOP fundamentals and SOLID principles
+                  through group and individual projects reflecting real world
+                  business problems. <br />• Source code version control with
+                  Git/GitHub. <br />• Project management/tracking with Github
+                  Projects & Issue Tracking. <br />• JavaScript fundamentals
+                  leveraging DRY, modular, readable code and reusable
+                  components. <br />• Built single-page applications with React,
+                  Browserify, HTML, CSS, jQuery. <br />• Task Automation with
+                  Grunt: ESLint, module bundling with Browserify. <br />• Styled
+                  applications with CSS Frameworks Bootstrap, Bulma and Bloomer.{" "}
+                  <br />• Deployed applications through Amazon S3, GitHub Pages,
+                  Heroku. <br />• Application design through white boarding
+                  dependencies and building ERD’s. <br />• Leveraged VirtualBox
+                  for virtualizing a Windows environment.
+                  <br />• Learned unit testing to write testing suites for code.
+                  <br />• Created and modified database design/content using
+                  SQL, ADO.NET, and ORM tooling, including exposure and
+                  experience with migrations.
+                  <br />• Created RESTful APIs with C#/.NET using WebAPI.
+                  <br />• Leveraged Razor for creating and editing MVC
+                  applications.
                 </p>
               </div>
             </div>{" "}
             {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
+                <h3>Lee University</h3>
                 <p className="info">
-                  B.A. Degree in Graphic Design <span>•</span>{" "}
-                  <em className="date">March 2003</em>
+                  B.A. Degree Anthropology <span>•</span>{" "}
+                  <em className="date">July 2017</em>
                 </p>
                 <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  Comprehensive and multidisciplinary Anthropology degree
+                  program which covered all four fields of Anthropology:
+                  Archaology, Biological Anthropology, Cultural Anthropology and
+                  Linguistics. Coursework included Archaeological field
+                  experience at multiple sites, an ethnography that was
+                  presented at a research symposium, and a minor in Teaching
+                  English to Speakers of Other Languages (with TESOL
+                  certification).
                 </p>
               </div>
             </div>{" "}
@@ -64,37 +85,34 @@ export default class Portfolio extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Awesome Design Studio</h3>
+                <h3>Nashville Software School</h3>
                 <p className="info">
-                  Senior UX Designer <span>•</span>{" "}
-                  <em className="date">March 2010 - Present</em>
+                  Apprentice Software Developer <span>•</span>{" "}
+                  <em className="date">May 2018 - Present</em>
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                  Nullam dictum felis eu pede mollis pretium.
+                  <br/>• Worked in a simulated SCRUM environment on a multitude of
+                  diffferent projects. <br/>• Build DartBoard - a travel planning
+                  application in React. <br/>• Won the coveted "Diplomat" superlative
+                  from classmates after front-end capstones. <br/>• Third tallest in
+                  the class.
                 </p>
               </div>
             </div>{" "}
             {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Super Cool Studio</h3>
+                <h3>Highlands Professional Group, LLC</h3>
                 <p className="info">
-                  UX Designer <span>•</span>{" "}
-                  <em className="date">March 2007 - February 2010</em>
+                  Operations Assistant <span>•</span>{" "}
+                  <em className="date">May 2017 - May 2018</em>
                 </p>
                 <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  <br />• Processed HIPA regulated medical billing items to the
+                  State of Tennessee Department of Disability Services. <br />•
+                  Organized and executed renovation of a housing structure
+                  through managing sub-contractors. <br />• Configured 13 office
+                  locations around Tennessee, Alabama, and Georgia.
                 </p>
               </div>
             </div>{" "}
@@ -105,7 +123,7 @@ export default class Portfolio extends Component {
         {/* End Work */}
         {/* Skills
         ----------------------------------------------- */}
-        <div className="row skill">
+        {/* <div className="row skill">
           <div className="three columns header-col">
             <h1>
               <span>Skills</span>
@@ -147,11 +165,11 @@ export default class Portfolio extends Component {
                   <em>jQuery</em>
                 </li>
               </ul>
-            </div>
-            {/* end skill-bars */}
-          </div>{" "}
-          {/* main-col end */}
-        </div>{" "}
+            </div> 
+            // end skill-bars 
+          </div>{" "} 
+          main-col end 
+        </div>{" "} */}
         {/* End skills */}
       </section>
     );

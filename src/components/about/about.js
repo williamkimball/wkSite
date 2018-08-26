@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Pdf from './wkResume.pdf';
 export default class About extends Component {
   render() {
     return (
@@ -35,11 +36,11 @@ export default class About extends Component {
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>Jonathan Doe</span>
+                <span>William Kimball</span>
                   <br />
                   <span>
-                    1600 Amphitheatre Parkway
-                    <br />
+                    {/* 1600 Amphitheatre Parkway
+                    <br /> */}
                     Milton, TN 37118 US
                   </span>
                   <br />
@@ -50,9 +51,9 @@ export default class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="#" className="button">
+                  <a href={Pdf} target="_blank" className="button">
                     <i className="fa fa-download" />
-                    Download Resume
+                    Download My Full Resume
                   </a>
                 </p>
               </div>
