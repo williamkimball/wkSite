@@ -89,7 +89,7 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />React, CRUD</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="https://github.com/Ridiculous-Rabbits/reactive-nutshell" target="_blank">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-02 End */}
