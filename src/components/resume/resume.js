@@ -91,11 +91,11 @@ export default class Portfolio extends Component {
                   <em className="date">May 2018 - Present</em>
                 </p>
                 <p>
-                  <br/>• Worked in a simulated SCRUM environment on a multitude of
-                  diffferent projects. <br/>• Build DartBoard - a travel planning
-                  application in React. <br/>• Won the coveted "Diplomat" superlative
-                  from classmates after front-end capstones. <br/>• Third tallest in
-                  the class.
+                  <br />• Worked in a simulated SCRUM environment on a multitude
+                  of diffferent projects. <br />• Build DartBoard - a travel
+                  planning application in React. <br />• Won the coveted
+                  "Diplomat" superlative from classmates after front-end
+                  capstones. <br />• Third tallest in the class.
                 </p>
               </div>
             </div>{" "}
@@ -108,11 +108,28 @@ export default class Portfolio extends Component {
                   <em className="date">May 2017 - May 2018</em>
                 </p>
                 <p>
-                  <br />• Processed HIPA regulated medical billing items to the
+                  <br />• Processed HIPAA regulated medical billing items to the
                   State of Tennessee Department of Disability Services. <br />•
                   Organized and executed renovation of a housing structure
                   through managing sub-contractors. <br />• Configured 13 office
                   locations around Tennessee, Alabama, and Georgia.
+                </p>
+              </div>
+            </div>{" "}
+            {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Christian Publishers Outlet</h3>
+                <p className="info">
+                  Retail Assistant Manager/ Internet Commerce Manager
+                  <span>•</span> <em className="date">Jun 2014 – Jan 2016</em>
+                </p>
+                <p>
+                  <br />• Filled business operations roles ranging from sales
+                  representative, customer service lead and assistant manager
+                  throughout my time at CPO.
+                  <br />• Fully responsible for all internet sales from
+                  invoicing to shipping. Orders averaged 200 per day.
                 </p>
               </div>
             </div>{" "}

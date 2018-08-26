@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Pdf from './wkResume.pdf';
+import Pdf from './williamKimballResume.pdf';
 export default class About extends Component {
   render() {
     return (
@@ -18,7 +18,7 @@ export default class About extends Component {
               undergraduate education, I was seeking a career path that would
               allow me to be in a constant state of growth, when I was
               introduced to software development by a family friend. Until that
-              point, I had already considered programming to be a skill you
+              point, I had always considered programming to be a skill you
               needed to begin while young to be truly good at it, and never
               really pursued it apart from writing "Hello, world" in about a
               dozen different languages. However, once I truly dug in and
