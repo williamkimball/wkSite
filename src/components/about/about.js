@@ -15,18 +15,18 @@ export default class About extends Component {
               since I was a child I have voraciously consumed new information.
               My inquisitiveness led me to pursue education in anthropology as I
               sought to understand humanity more deeply. After finishing my
-              undergraduate education, I was seeking a career path that would
-              allow me to be in a constant state of growth, when I was
-              introduced to software development by a family friend. Until that
+              undergraduate education, I sought a career path that would
+              allow me to be in a constant state of growth. I was
+              introduced to software development by a family friend, but until that
               point, I had always considered programming to be a skill you
-              needed to begin while young to be truly good at it, and never
-              really pursued it apart from writing "Hello, world" in about a
+              needed to begin at a young age to be truly good at. I never
+              really pursued programming apart from writing "Hello, world" in about a
               dozen different languages. However, once I truly dug in and
               started to learn, I was absolutely hooked. I spent 12 hours a day
               for the next two months learning to program, and made the decision
               that software development was a career that would be more than
               just a job for me when I enrolled in Nashville Software School's
-              Full Stack development bootcamp. Four months later, I am often
+              six month Full Stack development bootcamp. Four months later, I am often
               stunned when I reflect on how my life has changed, and I am
               incredibly excited to be pursuing a career that has no room for
               intellectual stagnation, and will constantly push me to learn new
